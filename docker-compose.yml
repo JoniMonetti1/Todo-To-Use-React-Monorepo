@@ -13,7 +13,7 @@ services:
 
   backend:
     build:
-      context: /home/joni/IdeaProjects/TodoToUseReact
+      context: /home/joni/Documents/repos/Todo-App-Monorepo/TodoToUseReact
     depends_on:
       - postgres
     environment:
@@ -27,7 +27,7 @@ services:
   
   frontend:
     build:
-      context: /home/joni/Documents/repos/front-todo-reac-spring
+      context: /home/joni/Documents/repos/Todo-App-Monorepo/front-todo-reac-spring
     ports:
       - "3000:80"
     depends_on:
