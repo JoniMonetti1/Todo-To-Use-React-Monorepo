@@ -1,0 +1,7 @@
+[submodule "TodoToUseReact"]
+  path = TodoToUseReact
+  url = https://github.com/JoniMonetti1/TodoToUseReact
+
+[submodule "front-todo-reac-spring"]
+  path = front-todo-reac-spring
+  url = https://github.com/JoniMonetti1/front-todo-react-spring
